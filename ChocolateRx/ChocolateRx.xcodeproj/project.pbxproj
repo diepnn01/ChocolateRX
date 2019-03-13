@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CEA2F398E883DE88977537 /* Pods_ChocolateRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA671D98B451038EF7CFC9D9 /* Pods_ChocolateRxTests.framework */; };
+		5F8AF4AF2238BFA900ADE662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4AE2238BFA900ADE662 /* AppDelegate.swift */; };
+		5F8AF4B12238BFA900ADE662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4B02238BFA900ADE662 /* ViewController.swift */; };
+		5F8AF4B42238BFA900ADE662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AF4B22238BFA900ADE662 /* Main.storyboard */; };
+		5F8AF4B62238BFAB00ADE662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AF4B52238BFAB00ADE662 /* Assets.xcassets */; };
+		5F8AF4B92238BFAB00ADE662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AF4B72238BFAB00ADE662 /* LaunchScreen.storyboard */; };
+		5F8AF4C42238BFAB00ADE662 /* ChocolateRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4C32238BFAB00ADE662 /* ChocolateRxTests.swift */; };
+		5F8AF4CF2238BFAB00ADE662 /* ChocolateRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4CE2238BFAB00ADE662 /* ChocolateRxUITests.swift */; };
+		5F8AF4DE2238C03F00ADE662 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4DD2238C03F00ADE662 /* ShoppingCart.swift */; };
+		5F8AF4E62238C0E100ADE662 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4E12238C0E100ADE662 /* CurrencyFormatter.swift */; };
+		5F8AF4E72238C0E100ADE662 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4E22238C0E100ADE662 /* CardType.swift */; };
+		5F8AF4E82238C0E100ADE662 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4E32238C0E100ADE662 /* Chocolate.swift */; };
+		5F8AF4E92238C0E100ADE662 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4E42238C0E100ADE662 /* ImageName.swift */; };
+		5F8AF4EE2238C12900ADE662 /* String+CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4EB2238C12900ADE662 /* String+CreditCard.swift */; };
+		5F8AF4EF2238C12900ADE662 /* String+ExpirationDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4EC2238C12900ADE662 /* String+ExpirationDate.swift */; };
+		5F8AF4F02238C12900ADE662 /* NSDate+CurrentComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4ED2238C12900ADE662 /* NSDate+CurrentComponents.swift */; };
+		5F8AF4F32238C4D700ADE662 /* ChocolateNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4F22238C4D700ADE662 /* ChocolateNavigationController.swift */; };
+		5F8AF4F52238C56D00ADE662 /* ChocolateOfTheWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4F42238C56D00ADE662 /* ChocolateOfTheWorldViewController.swift */; };
+		5F8AF4F82238DECE00ADE662 /* ChocolateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4F72238DECE00ADE662 /* ChocolateTableViewCell.swift */; };
+		5F8AF4FA2238F8F400ADE662 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AF4F92238F8F400ADE662 /* CartViewController.swift */; };
+		92E71AFE05E401FA6CE9635D /* Pods_ChocolateRxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4B8B25814B62E1A355DB1 /* Pods_ChocolateRxUITests.framework */; };
+		DECD8387A873EF17040DC79E /* Pods_ChocolateRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02337DC87E967AD52CAC10B /* Pods_ChocolateRx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8AF4C02238BFAB00ADE662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8AF4A32238BFA900ADE662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8AF4AA2238BFA900ADE662;
+			remoteInfo = ChocolateRx;
+		};
+		5F8AF4CB2238BFAB00ADE662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8AF4A32238BFA900ADE662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8AF4AA2238BFA900ADE662;
+			remoteInfo = ChocolateRx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15AA828CCBF8F62BF37A257A /* Pods-ChocolateRxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRxUITests.release.xcconfig"; path = "Target Support Files/Pods-ChocolateRxUITests/Pods-ChocolateRxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EAD2B9C36A6510EC0969A59 /* Pods-ChocolateRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRx.debug.xcconfig"; path = "Target Support Files/Pods-ChocolateRx/Pods-ChocolateRx.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8AF4AB2238BFA900ADE662 /* ChocolateRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChocolateRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8AF4AE2238BFA900ADE662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8AF4B02238BFA900ADE662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F8AF4B32238BFA900ADE662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8AF4B52238BFAB00ADE662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8AF4B82238BFAB00ADE662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F8AF4BA2238BFAB00ADE662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8AF4BF2238BFAB00ADE662 /* ChocolateRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocolateRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8AF4C32238BFAB00ADE662 /* ChocolateRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRxTests.swift; sourceTree = "<group>"; };
+		5F8AF4C52238BFAB00ADE662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8AF4CA2238BFAB00ADE662 /* ChocolateRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocolateRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8AF4CE2238BFAB00ADE662 /* ChocolateRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRxUITests.swift; sourceTree = "<group>"; };
+		5F8AF4D02238BFAB00ADE662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8AF4DD2238C03F00ADE662 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		5F8AF4E12238C0E100ADE662 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		5F8AF4E22238C0E100ADE662 /* CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		5F8AF4E32238C0E100ADE662 /* Chocolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
+		5F8AF4E42238C0E100ADE662 /* ImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		5F8AF4EB2238C12900ADE662 /* String+CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CreditCard.swift"; sourceTree = "<group>"; };
+		5F8AF4EC2238C12900ADE662 /* String+ExpirationDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ExpirationDate.swift"; sourceTree = "<group>"; };
+		5F8AF4ED2238C12900ADE662 /* NSDate+CurrentComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+CurrentComponents.swift"; sourceTree = "<group>"; };
+		5F8AF4F22238C4D700ADE662 /* ChocolateNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateNavigationController.swift; sourceTree = "<group>"; };
+		5F8AF4F42238C56D00ADE662 /* ChocolateOfTheWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateOfTheWorldViewController.swift; sourceTree = "<group>"; };
+		5F8AF4F72238DECE00ADE662 /* ChocolateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateTableViewCell.swift; sourceTree = "<group>"; };
+		5F8AF4F92238F8F400ADE662 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		6CB5C64D7CB6FD2C60BC2875 /* Pods-ChocolateRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRx.release.xcconfig"; path = "Target Support Files/Pods-ChocolateRx/Pods-ChocolateRx.release.xcconfig"; sourceTree = "<group>"; };
+		B22FBAEC3EA386FF9681211E /* Pods-ChocolateRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRxTests.debug.xcconfig"; path = "Target Support Files/Pods-ChocolateRxTests/Pods-ChocolateRxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C02337DC87E967AD52CAC10B /* Pods_ChocolateRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChocolateRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49A85401E51F54849E1752B /* Pods-ChocolateRxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRxTests.release.xcconfig"; path = "Target Support Files/Pods-ChocolateRxTests/Pods-ChocolateRxTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC1D33ACC16A194DEF86BD6A /* Pods-ChocolateRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRxUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChocolateRxUITests/Pods-ChocolateRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA671D98B451038EF7CFC9D9 /* Pods_ChocolateRxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChocolateRxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D4B8B25814B62E1A355DB1 /* Pods_ChocolateRxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChocolateRxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8AF4A82238BFA900ADE662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECD8387A873EF17040DC79E /* Pods_ChocolateRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4BC2238BFAB00ADE662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CEA2F398E883DE88977537 /* Pods_ChocolateRxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4C72238BFAB00ADE662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E71AFE05E401FA6CE9635D /* Pods_ChocolateRxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8AF4A22238BFA900ADE662 = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4AD2238BFA900ADE662 /* ChocolateRx */,
+				5F8AF4C22238BFAB00ADE662 /* ChocolateRxTests */,
+				5F8AF4CD2238BFAB00ADE662 /* ChocolateRxUITests */,
+				5F8AF4AC2238BFA900ADE662 /* Products */,
+				D29DA653AB84FB9827BC2ED1 /* Pods */,
+				96C35F4A92ABC464AEF17E86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8AF4AC2238BFA900ADE662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4AB2238BFA900ADE662 /* ChocolateRx.app */,
+				5F8AF4BF2238BFAB00ADE662 /* ChocolateRxTests.xctest */,
+				5F8AF4CA2238BFAB00ADE662 /* ChocolateRxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8AF4AD2238BFA900ADE662 /* ChocolateRx */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4EA2238C10D00ADE662 /* Extensions */,
+				5F8AF4DF2238C0BE00ADE662 /* Models */,
+				5F8AF4DC2238C02C00ADE662 /* Main */,
+				5F8AF4F12238C48100ADE662 /* Application */,
+				5F8AF4B52238BFAB00ADE662 /* Assets.xcassets */,
+				5F8AF4B72238BFAB00ADE662 /* LaunchScreen.storyboard */,
+				5F8AF4BA2238BFAB00ADE662 /* Info.plist */,
+			);
+			path = ChocolateRx;
+			sourceTree = "<group>";
+		};
+		5F8AF4C22238BFAB00ADE662 /* ChocolateRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4C32238BFAB00ADE662 /* ChocolateRxTests.swift */,
+				5F8AF4C52238BFAB00ADE662 /* Info.plist */,
+			);
+			path = ChocolateRxTests;
+			sourceTree = "<group>";
+		};
+		5F8AF4CD2238BFAB00ADE662 /* ChocolateRxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4CE2238BFAB00ADE662 /* ChocolateRxUITests.swift */,
+				5F8AF4D02238BFAB00ADE662 /* Info.plist */,
+			);
+			path = ChocolateRxUITests;
+			sourceTree = "<group>";
+		};
+		5F8AF4DC2238C02C00ADE662 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4AE2238BFA900ADE662 /* AppDelegate.swift */,
+				5F8AF4DD2238C03F00ADE662 /* ShoppingCart.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5F8AF4DF2238C0BE00ADE662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4E22238C0E100ADE662 /* CardType.swift */,
+				5F8AF4E32238C0E100ADE662 /* Chocolate.swift */,
+				5F8AF4E12238C0E100ADE662 /* CurrencyFormatter.swift */,
+				5F8AF4E42238C0E100ADE662 /* ImageName.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F8AF4EA2238C10D00ADE662 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4ED2238C12900ADE662 /* NSDate+CurrentComponents.swift */,
+				5F8AF4EB2238C12900ADE662 /* String+CreditCard.swift */,
+				5F8AF4EC2238C12900ADE662 /* String+ExpirationDate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F8AF4F12238C48100ADE662 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4F62238DEB100ADE662 /* Views */,
+				5F8AF4B02238BFA900ADE662 /* ViewController.swift */,
+				5F8AF4B22238BFA900ADE662 /* Main.storyboard */,
+				5F8AF4F22238C4D700ADE662 /* ChocolateNavigationController.swift */,
+				5F8AF4F42238C56D00ADE662 /* ChocolateOfTheWorldViewController.swift */,
+				5F8AF4F92238F8F400ADE662 /* CartViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5F8AF4F62238DEB100ADE662 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F8AF4F72238DECE00ADE662 /* ChocolateTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96C35F4A92ABC464AEF17E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02337DC87E967AD52CAC10B /* Pods_ChocolateRx.framework */,
+				DA671D98B451038EF7CFC9D9 /* Pods_ChocolateRxTests.framework */,
+				E4D4B8B25814B62E1A355DB1 /* Pods_ChocolateRxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29DA653AB84FB9827BC2ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EAD2B9C36A6510EC0969A59 /* Pods-ChocolateRx.debug.xcconfig */,
+				6CB5C64D7CB6FD2C60BC2875 /* Pods-ChocolateRx.release.xcconfig */,
+				B22FBAEC3EA386FF9681211E /* Pods-ChocolateRxTests.debug.xcconfig */,
+				C49A85401E51F54849E1752B /* Pods-ChocolateRxTests.release.xcconfig */,
+				CC1D33ACC16A194DEF86BD6A /* Pods-ChocolateRxUITests.debug.xcconfig */,
+				15AA828CCBF8F62BF37A257A /* Pods-ChocolateRxUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8AF4AA2238BFA900ADE662 /* ChocolateRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8AF4D32238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRx" */;
+			buildPhases = (
+				F9A99A1A14906CC8466F5DDA /* [CP] Check Pods Manifest.lock */,
+				5F8AF4A72238BFA900ADE662 /* Sources */,
+				5F8AF4A82238BFA900ADE662 /* Frameworks */,
+				5F8AF4A92238BFA900ADE662 /* Resources */,
+				4CF1D8559418052F8566BB7D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChocolateRx;
+			productName = ChocolateRx;
+			productReference = 5F8AF4AB2238BFA900ADE662 /* ChocolateRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8AF4BE2238BFAB00ADE662 /* ChocolateRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8AF4D62238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRxTests" */;
+			buildPhases = (
+				E5F1873C814DCA9A6A599A8C /* [CP] Check Pods Manifest.lock */,
+				5F8AF4BB2238BFAB00ADE662 /* Sources */,
+				5F8AF4BC2238BFAB00ADE662 /* Frameworks */,
+				5F8AF4BD2238BFAB00ADE662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8AF4C12238BFAB00ADE662 /* PBXTargetDependency */,
+			);
+			name = ChocolateRxTests;
+			productName = ChocolateRxTests;
+			productReference = 5F8AF4BF2238BFAB00ADE662 /* ChocolateRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F8AF4C92238BFAB00ADE662 /* ChocolateRxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8AF4D92238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRxUITests" */;
+			buildPhases = (
+				403589A3D4B791DB2575A17D /* [CP] Check Pods Manifest.lock */,
+				5F8AF4C62238BFAB00ADE662 /* Sources */,
+				5F8AF4C72238BFAB00ADE662 /* Frameworks */,
+				5F8AF4C82238BFAB00ADE662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8AF4CC2238BFAB00ADE662 /* PBXTargetDependency */,
+			);
+			name = ChocolateRxUITests;
+			productName = ChocolateRxUITests;
+			productReference = 5F8AF4CA2238BFAB00ADE662 /* ChocolateRxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8AF4A32238BFA900ADE662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Diep Nguyen";
+				TargetAttributes = {
+					5F8AF4AA2238BFA900ADE662 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5F8AF4BE2238BFAB00ADE662 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F8AF4AA2238BFA900ADE662;
+					};
+					5F8AF4C92238BFAB00ADE662 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F8AF4AA2238BFA900ADE662;
+					};
+				};
+			};
+			buildConfigurationList = 5F8AF4A62238BFA900ADE662 /* Build configuration list for PBXProject "ChocolateRx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8AF4A22238BFA900ADE662;
+			productRefGroup = 5F8AF4AC2238BFA900ADE662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8AF4AA2238BFA900ADE662 /* ChocolateRx */,
+				5F8AF4BE2238BFAB00ADE662 /* ChocolateRxTests */,
+				5F8AF4C92238BFAB00ADE662 /* ChocolateRxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8AF4A92238BFA900ADE662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8AF4B92238BFAB00ADE662 /* LaunchScreen.storyboard in Resources */,
+				5F8AF4B62238BFAB00ADE662 /* Assets.xcassets in Resources */,
+				5F8AF4B42238BFA900ADE662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4BD2238BFAB00ADE662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4C82238BFAB00ADE662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403589A3D4B791DB2575A17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChocolateRxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF1D8559418052F8566BB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChocolateRx/Pods-ChocolateRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChocolateRx/Pods-ChocolateRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F1873C814DCA9A6A599A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChocolateRxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A99A1A14906CC8466F5DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChocolateRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8AF4A72238BFA900ADE662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8AF4B12238BFA900ADE662 /* ViewController.swift in Sources */,
+				5F8AF4EE2238C12900ADE662 /* String+CreditCard.swift in Sources */,
+				5F8AF4FA2238F8F400ADE662 /* CartViewController.swift in Sources */,
+				5F8AF4E82238C0E100ADE662 /* Chocolate.swift in Sources */,
+				5F8AF4F82238DECE00ADE662 /* ChocolateTableViewCell.swift in Sources */,
+				5F8AF4DE2238C03F00ADE662 /* ShoppingCart.swift in Sources */,
+				5F8AF4AF2238BFA900ADE662 /* AppDelegate.swift in Sources */,
+				5F8AF4F52238C56D00ADE662 /* ChocolateOfTheWorldViewController.swift in Sources */,
+				5F8AF4F32238C4D700ADE662 /* ChocolateNavigationController.swift in Sources */,
+				5F8AF4EF2238C12900ADE662 /* String+ExpirationDate.swift in Sources */,
+				5F8AF4F02238C12900ADE662 /* NSDate+CurrentComponents.swift in Sources */,
+				5F8AF4E62238C0E100ADE662 /* CurrencyFormatter.swift in Sources */,
+				5F8AF4E92238C0E100ADE662 /* ImageName.swift in Sources */,
+				5F8AF4E72238C0E100ADE662 /* CardType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4BB2238BFAB00ADE662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8AF4C42238BFAB00ADE662 /* ChocolateRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8AF4C62238BFAB00ADE662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8AF4CF2238BFAB00ADE662 /* ChocolateRxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F8AF4C12238BFAB00ADE662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8AF4AA2238BFA900ADE662 /* ChocolateRx */;
+			targetProxy = 5F8AF4C02238BFAB00ADE662 /* PBXContainerItemProxy */;
+		};
+		5F8AF4CC2238BFAB00ADE662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8AF4AA2238BFA900ADE662 /* ChocolateRx */;
+			targetProxy = 5F8AF4CB2238BFAB00ADE662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F8AF4B22238BFA900ADE662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8AF4B32238BFA900ADE662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8AF4B72238BFAB00ADE662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8AF4B82238BFAB00ADE662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F8AF4D12238BFAB00ADE662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F8AF4D22238BFAB00ADE662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8AF4D42238BFAB00ADE662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAD2B9C36A6510EC0969A59 /* Pods-ChocolateRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F8AF4D52238BFAB00ADE662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB5C64D7CB6FD2C60BC2875 /* Pods-ChocolateRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F8AF4D72238BFAB00ADE662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22FBAEC3EA386FF9681211E /* Pods-ChocolateRxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocolateRx.app/ChocolateRx";
+			};
+			name = Debug;
+		};
+		5F8AF4D82238BFAB00ADE662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49A85401E51F54849E1752B /* Pods-ChocolateRxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocolateRx.app/ChocolateRx";
+			};
+			name = Release;
+		};
+		5F8AF4DA2238BFAB00ADE662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1D33ACC16A194DEF86BD6A /* Pods-ChocolateRxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChocolateRx;
+			};
+			name = Debug;
+		};
+		5F8AF4DB2238BFAB00ADE662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AA828CCBF8F62BF37A257A /* Pods-ChocolateRxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692BX88323;
+				INFOPLIST_FILE = ChocolateRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkplus.ChocolateRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChocolateRx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8AF4A62238BFA900ADE662 /* Build configuration list for PBXProject "ChocolateRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8AF4D12238BFAB00ADE662 /* Debug */,
+				5F8AF4D22238BFAB00ADE662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8AF4D32238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8AF4D42238BFAB00ADE662 /* Debug */,
+				5F8AF4D52238BFAB00ADE662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8AF4D62238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8AF4D72238BFAB00ADE662 /* Debug */,
+				5F8AF4D82238BFAB00ADE662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8AF4D92238BFAB00ADE662 /* Build configuration list for PBXNativeTarget "ChocolateRxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8AF4DA2238BFAB00ADE662 /* Debug */,
+				5F8AF4DB2238BFAB00ADE662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8AF4A32238BFA900ADE662 /* Project object */;
+}

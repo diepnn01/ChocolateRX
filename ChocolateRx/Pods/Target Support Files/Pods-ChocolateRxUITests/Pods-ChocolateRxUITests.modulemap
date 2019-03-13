@@ -1,0 +1,6 @@
+framework module Pods_ChocolateRxUITests {
+  umbrella header "Pods-ChocolateRxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
